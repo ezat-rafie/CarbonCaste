@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="icon" href="public/images/09 - The Loop_700.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="public/css/carbonCaste.css">
+    <script type="text/javascript" src="public/js/carbonCaste.js"></script>
+    <title>Carbon Caste</title>
+
+    <!--
+    References:
+    user icon from https://www.vhv.rs/viewpic/iiboxiw_profile-icons-ux-vector-logo-illustration-ui-app/ 
+    -->
+
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Carbon Caste</h1>
+        <div id="reveal"></div>
+        <button class="navbar" id="usernameIcon"><img src="public/images/user-icon.png" width="15px" alt="user-icon"> Ben Tucker</button>
+        <a href="index.html" class="navbar" id="homePage">Home page</a>
+    </header>
+    <main>
+        <form name="loginForm" method="Post" id="loginForm" action="" >
+            <label class="loginLabel">Username</label>
+            <input id="username"  type="text" name="username"><br/>
+            <label class="loginLabel">Password</label>
+            <input id="password" type="password" name="password"><br/>
+            <br/><br/>
+            <input type="submit" id="submitButton" value="Submit">
+            <p id="errors">
+            </p>
+        </form>  
+    </main>
+    <footer>
+        <p>copyright Carbon Caste inc.</p>
+    </footer>
+</body>
+</html>
